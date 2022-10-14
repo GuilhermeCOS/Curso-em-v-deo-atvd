@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+
+<body>
+    <h1>
+        Imagem dinâmica
+    </h1>    
+
+    <p>tente abrir esse site em vários dispositivos ou diferentes sistemas</p>    
+
+   <picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagemP.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagemM.png" type="image/png">
+    <img src="imagens/imagens.png" alt="grande">
+
+   </picture>
+   <h1>reproduzindo áudio</h1>
+   <p>  
+    vamos aprender a reproduzir áudios
+   </p>
+    <audio preload="metadata"controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <p>infelizmente seu navegador não consegue baixar audio, <a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
+
+    </audio>
+   
+    <!--MP3, OGG, WAV - São os tipos de áudios que funcionam -->
+
+
+
+    </body>
+</html>
