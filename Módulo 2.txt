@@ -1,0 +1,104 @@
+                                                                    Anotações - Curso em vídeo módulo 1:
+
+type= "application" para deixar um link baixavel
+<a> = Tag de âncora para dowloand
+address= Tag para colocar algo como se fosse um endereço
+ol= Lista em ordem crescente (acompanha o LI)
+ul = Lista que a ordem não importa
+Dd= lista de dados
+q = Quote, tag para citar algo
+blockquote= Mesma coisa, só que dá um espaçamento a mais
+Linkfavicon= para colocar o favicon no seu site
+&lt;= sinal de "<"
+&gt;= sinal de ">"
+type= "application/PDF"
+dowloand = tag para colocar o arquivo cliquavel para baixar	
+<picture>
+source:type:midia
+audio: Tag para audio "src" = para colocar o audio
+autoplay = para da play automático no áudio.
+control = para colocar o botão de áudio.
+preload = (como as informações do áudio vão carregar "metadadata" "None" "auto"
+Loop = o áudio fica recarregando quando chega no fim
+site pexels = para baixar vídeo e imagens sem direitos autorais
+handbrake = Software 100% gratuito para converter vídeos
+poster = para colocar uma thumb no vídeo
+widht= para mudar o tamanho do vídeo (serve para outras coisas) 
+incorporar vídeos no youtube pra usar como código.
+Vimeo atende a necessidade de exclusividade tem
+
+                                               CSS:
+
+background-color; para mudar a cor de fundo
+font-family: para mudar a formatação da fonte
+text-allign: para colocar o texto onde você quiser (centro, justificado, esquerda, direita, etc.) 
+Font-size: para mudar o tamanho da fonte 
+EM= o tamanho da fonte atual	
+@charset= regra para compatível com UTF-8
+é possível utilizar mais de um link de CSS (vai somar os 2 arquivos de CSS)
+text-decoration: para decorar palavras ou frases (sublinhado, marcado, italico, e etc)
+se eu usar o CSS interno, para mudar algo, ele irá mudar só o daquela página. Se eu usar o CSS inline, ele irá mudar só a tag que eu coloquei o style
+no mesmo arquivo sempre posso usar as 3 maneira, no mesmo arquivo: (Inline>Local>Externo) 
+
+
+
+
+
+
+
+                                                    Módulo 2: CSS3 E HTML5
+Cor é de extrema importância
+O conjunto de cores de um site, influência o acesso dos usuários (chegando a ter influência em 90% dos usuários)
+Azul é a cor mais aceita do mundo (com menor taxa de rejeição também)
+Não abusar do contraste letra branco e fundo preto (recomendado utilizar apenas quando o site requer pouco conteúdo)
+Vermelho & Amarelo = Relacionado a comida e a feliciade (Laranja também é utilizável)
+Verde = utilizado para meio ambiente, natureza, saúde, biodiversidade, etc. (Verde não é uma cor muito bom para meninas adolescente)
+Monocromia = Mesma cor, diferentes tons.
+Rosa = Utilizado em cosméticos, em coisas doces, e etc. 
+<!--Representação por hexadecimal-->
+<!--Decimal: 0,1,2,3,4,5,6,7,8,9, A,B,C,D,E,F-->
+rgb()tag
+
+
+Círculo cromático: Amarelo, Azul, Vermelho.
+Cores secundárias: Verde, Violeta, Laranja
+Cores terciárias: Todas as outras (misturas das cores primárias e secundárias), todas as cores terciárias, estão entre uma
+cor primária, e outra secundária. 
+Exemplo de cores terciárias: Amarelo alaranjado, amarelo-esverdeado, vermelho-alaranjado, vermelho-arroxeado (violeta)
+azul-arroxeado, azul-esverdeado (tons pastéis)
+cores do hemisfério esquerdo do ciclo cromático: Cores frias 
+Cores do hemisfério direito do ciclo cromático: Cores quentes
+3 as 5 cores no seu site (sem contar com branco ou preto, pois sempre terá em seu site)
+Cores complementares (cores que tem mais contrastes entre si)
+Cores Análogas (Não tem contrastes, porém tem harmonia), pegue as cores vizinhas
+Cores Análogas Relacionadas: Pegue 2 cores, pule uma cor, e pegue a terceira cor
+Cores intercaladas: Escolha uma cor, pulo uma (duas ou três), pego a cor, posterior isso, pulo novamente uma quantidade x
+e escolho a cor.
+Cores triádicas: Pegue uma cor de referência, pule três cores, pegue uma cor, faça a mesma coisa novamente.
+Cores em quadrado: escolho uma de referência, pulo duas cores, e escolho. Repito novamente para se fazer uma paleta.
+Cores tetrádicas: 2 cores de referência. Pego o oposto das 2 cores.
+Monocromia: mesmo cor, com saturação e luminosidade dessa cor
+
+
+Adobe color = bom para fazer suas paletas. (Função extrair tema, para pegar paleta de cores de uma determinada imagem/logo) (Extrair gradiente, cria um degradê com tal palheta)
+Paletton = Site para paletas também
+Coolors = Idem
+
+Para descobrir a cor de uma imagem, pode-se usar o conta gota do aplicativo GIMP 
+*{
+} (connfiguração global das CSS)
+Background-attchament: fixed; (deixa a tela de fundo fixa, mesmo que tenha conteúdo nela)
+background-image; linear-gradient() (funciona para fazer degradê) direções: bottom, top, right, left ou em deg (graus)(colocar a porcentagem para decidir o quanto
+cada cor deve ocupar na tela) 
+height = altura
+widht = largura 
+padding = um tipo de borda 
+border-radius: coloca bordinhas em alguma parte do seu site
+box-shadow = tag de css que faz sombra
+text-shadow = coloca sombra no texto
+
+                                                                     Tipografia (typos = impressão, grafia = escrita):
+Estudo da escrita, de como escrever.
+O tipo da escrita, igualmente as cores, também passam sentimentos 
+/* */ (comentário no css)
+
